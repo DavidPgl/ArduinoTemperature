@@ -14,7 +14,7 @@ struct pt pt1;
 struct pt pt2;
 
 void sendTemperature(float value, int id){
-    Serial.println((String)id +  "-" + (String)value);
+    Serial.println((String)id +  "&" + (String)value);
 }
 
 int getTemp(struct pt *pt, DallasTemperature sensors, DeviceAddress deviceAddress, int id){
