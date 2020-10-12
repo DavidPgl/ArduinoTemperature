@@ -1,1 +1,1 @@
-"# ArduinoTemperature" 
+# ArduinoTemperature
